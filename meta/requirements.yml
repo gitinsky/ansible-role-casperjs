@@ -1,0 +1,3 @@
+ - src: https://github.com/gitinsky/ansible-role-nodejs
+   version: master
+   name: nodejs
