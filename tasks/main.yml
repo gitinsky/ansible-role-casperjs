@@ -1,3 +1,6 @@
 ---
 - name: install casperjs
-  npm: name=casperjs global=yes
+  npm: name={{ item }} global=yes state=latest
+  with_items:
+      - phantomjs
+      - casperjs
